@@ -1,0 +1,18 @@
+GET http://localhost:3000/user
+
+
+###
+GET http://localhost:3000/user/42d20555-84f0-4f14-b12f-0ac7161e8087
+
+
+###
+POST http://localhost:3000/user 
+Content-Type: application/json
+
+{
+   "name":"Rodobaldo",
+   "password":"12345",
+   "rol":"user",
+   "isActive":true,
+   "email":"email@gmail.com"
+}

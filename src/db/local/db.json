@@ -4,8 +4,8 @@
     "password": "password123",
     "Rol": "admin",
     "isActive": true,
-    "create_no": "2021-01-01",
-    "Id_user": "12345678-1234-1234-1234-123456789012",
+    "create": "2021-01-01",
+    "Id_user": "42d20555-84f0-4f14-b12f-0ac7161e8087",
     "email": "johnsmith@example.com"
   },
   {
@@ -13,8 +13,8 @@
     "password": "pass321",
     "Rol": "user",
     "isActive": false,
-    "create_no": "2021-02-15",
-    "Id_user": "98765432-4321-4321-4321-210987654321",
+    "create": "2021-02-15",
+    "Id_user": "368df267-87ab-415e-9ab0-8601eb4346b2",
     "email": "janedoe@example.com"
   },
   {
@@ -22,8 +22,8 @@
     "password": "mike1987",
     "Rol": "admin",
     "isActive": true,
-    "create_no": "2021-03-10",
-    "Id_user": "24681357-1357-1357-1357-135724681357",
+    "create": "2021-03-10",
+    "Id_user": "9b634967-6c68-4ff7-a1c1-49cae01bb3bb",
     "email": "mjohnson@example.com"
   },
   {
@@ -31,8 +31,8 @@
     "password": "emilyd",
     "Rol": "user",
     "isActive": true,
-    "create_no": "2021-04-05",
-    "Id_user": "86420975-0975-0975-0975-576492086407",
+    "create": "2021-04-05",
+    "Id_user": "1673121c-3983-449b-bc93-a5b5aff8c1fd",
     "email": "edavis@example.com"
   },
   {
@@ -40,8 +40,8 @@
     "password": "wilson123",
     "Rol": "user",
     "isActive": false,
-    "create_no": "2021-05-20",
-    "Id_user": "95175386-5386-5386-5386-385296951753",
+    "create": "2021-05-20",
+    "Id_user": "2fc92fe0-38eb-4f7b-8181-08745a25b41f",
     "email": "dwilson@example.com"
   },
   {
@@ -49,7 +49,7 @@
     "password": "sarah1234",
     "Rol": "admin",
     "isActive": true,
-    "create_no": "2021-06-25",
+    "create": "2021-06-25",
     "Id_user": "75395186-5186-5186-5186-861537951753",
     "email": "sthompson@example.com"
   },
@@ -58,7 +58,7 @@
     "password": "chrisr",
     "Rol": "user",
     "isActive": false,
-    "create_no": "2021-07-30",
+    "create": "2021-07-30",
     "Id_user": "15975386-5386-5386-5386-861537951753",
     "email": "crodriguez@example.com"
   },
@@ -67,7 +67,7 @@
     "password": "jess123",
     "Rol": "admin",
     "isActive": true,
-    "create_no": "2021-08-15",
+    "create": "2021-08-15",
     "Id_user": "35795186-5186-5186-5186-861537951753",
     "email": "jmartinez@example.com"
   },
@@ -76,7 +76,7 @@
     "password": "matt85",
     "Rol": "user",
     "isActive": true,
-    "create_no": "2021-09-10",
+    "create": "2021-09-10",
     "Id_user": "75395186-5386-5386-5386-861537951753",
     "email": "manderson@example.com"
   },
@@ -85,7 +85,7 @@
     "password": "amanda22",
     "Rol": "admin",
     "isActive": false,
-    "create_no": "2021-10-05",
+    "create": "2021-10-05",
     "Id_user": "35795186-5186-5186-5186-861537951753",
     "email": "aharris@example.com"
   }
