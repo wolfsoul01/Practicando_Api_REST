@@ -1,15 +1,15 @@
-import http from 'node:http'
+import http from "node:http";
+import { readJSON } from "./utils/readJSON.js";
+const PORT = 3000;
 
-const PORT= 3000
+const app = http.createServer((req, res) => {
+  res.setHeader("Content-Type", "application/json");
 
-const app =http.createServer((req,res)=>{
+  const data = readJSON("../db/local/db.json");
 
-    res.setHeader('Content-Type','text/html')
+  res.end(JSON.stringify(data))
+});
 
-    res.end('<h1>hola mundo</h1>')
-})
-
-app.listen(PORT,()=>{
-    console.log(`Server running on http://localhost:${PORT}`);
-})
-
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});

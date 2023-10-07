@@ -1,0 +1,92 @@
+[
+  {
+    "name": "John Smith",
+    "password": "password123",
+    "Rol": "admin",
+    "isActive": true,
+    "create_no": "2021-01-01",
+    "Id_user": "12345678-1234-1234-1234-123456789012",
+    "email": "johnsmith@example.com"
+  },
+  {
+    "name": "Jane Doe",
+    "password": "pass321",
+    "Rol": "user",
+    "isActive": false,
+    "create_no": "2021-02-15",
+    "Id_user": "98765432-4321-4321-4321-210987654321",
+    "email": "janedoe@example.com"
+  },
+  {
+    "name": "Michael Johnson",
+    "password": "mike1987",
+    "Rol": "admin",
+    "isActive": true,
+    "create_no": "2021-03-10",
+    "Id_user": "24681357-1357-1357-1357-135724681357",
+    "email": "mjohnson@example.com"
+  },
+  {
+    "name": "Emily Davis",
+    "password": "emilyd",
+    "Rol": "user",
+    "isActive": true,
+    "create_no": "2021-04-05",
+    "Id_user": "86420975-0975-0975-0975-576492086407",
+    "email": "edavis@example.com"
+  },
+  {
+    "name": "David Wilson",
+    "password": "wilson123",
+    "Rol": "user",
+    "isActive": false,
+    "create_no": "2021-05-20",
+    "Id_user": "95175386-5386-5386-5386-385296951753",
+    "email": "dwilson@example.com"
+  },
+  {
+    "name": "Sarah Thompson",
+    "password": "sarah1234",
+    "Rol": "admin",
+    "isActive": true,
+    "create_no": "2021-06-25",
+    "Id_user": "75395186-5186-5186-5186-861537951753",
+    "email": "sthompson@example.com"
+  },
+  {
+    "name": "Christopher Rodriguez",
+    "password": "chrisr",
+    "Rol": "user",
+    "isActive": false,
+    "create_no": "2021-07-30",
+    "Id_user": "15975386-5386-5386-5386-861537951753",
+    "email": "crodriguez@example.com"
+  },
+  {
+    "name": "Jessica Martinez",
+    "password": "jess123",
+    "Rol": "admin",
+    "isActive": true,
+    "create_no": "2021-08-15",
+    "Id_user": "35795186-5186-5186-5186-861537951753",
+    "email": "jmartinez@example.com"
+  },
+  {
+    "name": "Matthew Anderson",
+    "password": "matt85",
+    "Rol": "user",
+    "isActive": true,
+    "create_no": "2021-09-10",
+    "Id_user": "75395186-5386-5386-5386-861537951753",
+    "email": "manderson@example.com"
+  },
+  {
+    "name": "Amanda Harris",
+    "password": "amanda22",
+    "Rol": "admin",
+    "isActive": false,
+    "create_no": "2021-10-05",
+    "Id_user": "35795186-5186-5186-5186-861537951753",
+    "email": "aharris@example.com"
+  }
+]
