@@ -1,5 +1,6 @@
 import express from "express";
 import userRouter from "./routes/user.routes.js";
+import {loginRoutes} from "./routes/login.routes.js";
 const PORT = 3000;
 
 const app = express();
@@ -12,6 +13,7 @@ app.get("/", (req, res) => {
   res.send("<h1>Hola mundo</h1>");
 });
 
+app.use('/login',loginRoutes)
 app.use("/user", userRouter);
 
 app.use((req, res) => {

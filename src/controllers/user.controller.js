@@ -19,7 +19,7 @@ export class UserController {
 
     const data = validarUser(body);
 
-    if (!data.success) res.json({ message: "Error ", err: data.error });
+    if (!data.success) return res.json({ message: "Error ", err: data.error });
 
     const { id_user, ...restUser } = await UserModel.createUser(data.data);
     res.json(restUser);
@@ -29,7 +29,7 @@ export class UserController {
     const { id } = req.params;
     const result = partialValidUser(req.body);
 
-    if (!result.success) res.json({ message: "Error", err: result.error });
+    if (!result.success) return res.json({ message: "Error", err: result.error });
 
     const { id_user, ...restUser } = await UserModel.udateUser({
       userData: result.data,

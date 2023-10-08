@@ -36,4 +36,10 @@ export class UserModel {
     users[userIndex] = newUser;
     return newUser;
   }
+
+  static async validDataLogin({password,email}){
+
+    
+
+  }
 }

@@ -8,10 +8,19 @@ const userSchema = z.object({
   email: z.string().email(),
 });
 
+export const userLoginSchema= z.object({
+  email:z.string().email(),
+  password:z.string().min(5)
+})
+
 export function validarUser (user) {
   return userSchema.safeParse(user);
 }
 
 export function partialValidUser(user){
   return userSchema.partial().safeParse(user)
+}
+
+export function validetLogin(body){
+  return userLoginSchema.safeParse(body)
 }
