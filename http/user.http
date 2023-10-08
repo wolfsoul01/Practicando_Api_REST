@@ -16,3 +16,14 @@ Content-Type: application/json
    "isActive":true,
    "email":"email@gmail.com"
 }
+###
+PATCH  http://localhost:3000/user/42d20555-84f0-4f14-b12f-0ac7161e8087
+Content-Type: application/json
+
+{
+    "name":"Rodobaldo",
+   "password":"12345",
+   "rol":"user",
+   "isActive":true,
+   "email":"email@gmail.com"
+}

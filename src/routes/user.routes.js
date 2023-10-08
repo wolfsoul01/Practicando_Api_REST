@@ -10,4 +10,6 @@ userRouter.get("/:id", UserController.getById);
 
 userRouter.post("/", UserController.createUser);
 
+userRouter.patch('/:id',UserController.updateUser)
+
 export default userRouter;
