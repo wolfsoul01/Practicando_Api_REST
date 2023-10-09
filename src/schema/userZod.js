@@ -13,7 +13,7 @@ export const userLoginSchema= z.object({
   password:z.string().min(5)
 })
 
-export function validarUser (user) {
+export function validarUserSchema (user) {
   return userSchema.safeParse(user);
 }
 

@@ -19,6 +19,7 @@ export class UserModel {
       create: Date.now(),
     };
     users.push(newUser);
+    
     return newUser;
   }
   

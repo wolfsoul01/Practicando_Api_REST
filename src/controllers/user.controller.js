@@ -1,4 +1,4 @@
-import { validarUser, partialValidUser } from "../schema/userZod.js";
+import { validarUserSchema, partialValidUser } from "../schema/userZod.js";
 import { UserModel } from "../model/user.model.js";
 export class UserController {
 
@@ -19,25 +19,20 @@ export class UserController {
   }
 
   static async createUser(req, res) {
-    const body = req.body;
+   
+    const userData = req.data
+    const { id_user, ...restUser } = await UserModel.createUser(userData);
 
-    const data = validarUser(body);
-
-    if (!data.success) return res.json({ message: "Error ", err: data.error });
-
-    const { id_user, ...restUser } = await UserModel.createUser(data.data);
-    res.json(restUser);
+    res.json({user:restUser});
   }
 
   static async updateUser(req, res) {
     const { id } = req.params;
-    const result = partialValidUser(req.body);
-
-    if (!result.success)
-      return res.json({ message: "Error", err: result.error });
+    
+    const userData= req.data
 
     const { id_user, ...restUser } = await UserModel.udateUser({
-      userData: result.data,
+      userData,
       id,
     });
     res.json(restUser);
