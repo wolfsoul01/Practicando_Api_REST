@@ -5,7 +5,7 @@
     "Rol": "admin",
     "isActive": true,
     "create": "2021-01-01",
-    "Id_user": "42d20555-84f0-4f14-b12f-0ac7161e8087",
+    "id_user": "42d20555-84f0-4f14-b12f-0ac7161e8087",
     "email": "johnsmith@example.com"
   },
   {
@@ -14,7 +14,7 @@
     "Rol": "user",
     "isActive": false,
     "create": "2021-02-15",
-    "Id_user": "368df267-87ab-415e-9ab0-8601eb4346b2",
+    "id_user": "368df267-87ab-415e-9ab0-8601eb4346b2",
     "email": "janedoe@example.com"
   },
   {
@@ -23,7 +23,7 @@
     "Rol": "admin",
     "isActive": true,
     "create": "2021-03-10",
-    "Id_user": "9b634967-6c68-4ff7-a1c1-49cae01bb3bb",
+    "id_user": "9b634967-6c68-4ff7-a1c1-49cae01bb3bb",
     "email": "mjohnson@example.com"
   },
   {
@@ -32,7 +32,7 @@
     "Rol": "user",
     "isActive": true,
     "create": "2021-04-05",
-    "Id_user": "1673121c-3983-449b-bc93-a5b5aff8c1fd",
+    "id_user": "1673121c-3983-449b-bc93-a5b5aff8c1fd",
     "email": "edavis@example.com"
   },
   {
@@ -41,7 +41,7 @@
     "Rol": "user",
     "isActive": false,
     "create": "2021-05-20",
-    "Id_user": "2fc92fe0-38eb-4f7b-8181-08745a25b41f",
+    "id_user": "2fc92fe0-38eb-4f7b-8181-08745a25b41f",
     "email": "dwilson@example.com"
   },
   {
@@ -50,7 +50,7 @@
     "Rol": "admin",
     "isActive": true,
     "create": "2021-06-25",
-    "Id_user": "75395186-5186-5186-5186-861537951753",
+    "id_user": "75395186-5186-5186-5186-861537951753",
     "email": "sthompson@example.com"
   },
   {
@@ -59,7 +59,7 @@
     "Rol": "user",
     "isActive": false,
     "create": "2021-07-30",
-    "Id_user": "15975386-5386-5386-5386-861537951753",
+    "id_user": "15975386-5386-5386-5386-861537951753",
     "email": "crodriguez@example.com"
   },
   {
@@ -68,7 +68,7 @@
     "Rol": "admin",
     "isActive": true,
     "create": "2021-08-15",
-    "Id_user": "35795186-5186-5186-5186-861537951753",
+    "id_user": "35795186-5186-5186-5186-861537951753",
     "email": "jmartinez@example.com"
   },
   {
@@ -77,7 +77,7 @@
     "Rol": "user",
     "isActive": true,
     "create": "2021-09-10",
-    "Id_user": "75395186-5386-5386-5386-861537951753",
+    "id_user": "75395186-5386-5386-5386-861537951753",
     "email": "manderson@example.com"
   },
   {
@@ -86,7 +86,7 @@
     "Rol": "admin",
     "isActive": false,
     "create": "2021-10-05",
-    "Id_user": "35795186-5186-5186-5186-861537951753",
+    "id_user": "35795186-5186-5186-5186-861537951753",
     "email": "aharris@example.com"
   }
 ]

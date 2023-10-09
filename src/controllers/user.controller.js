@@ -1,10 +1,15 @@
 import { validarUser, partialValidUser } from "../schema/userZod.js";
 import { UserModel } from "../model/user.model.js";
-
+import jwt from "jsonwebtoken";
 export class UserController {
+
   static async getAll(req, res) {
+
+    console.log('Es esta papu:',req.id);
+   
     const users = await UserModel.getAllUser();
-    res.json(users);
+
+    res.json(users.filter(user=> user.isActive));
   }
 
   static async getById(req, res) {
@@ -29,7 +34,8 @@ export class UserController {
     const { id } = req.params;
     const result = partialValidUser(req.body);
 
-    if (!result.success) return res.json({ message: "Error", err: result.error });
+    if (!result.success)
+      return res.json({ message: "Error", err: result.error });
 
     const { id_user, ...restUser } = await UserModel.udateUser({
       userData: result.data,

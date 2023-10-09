@@ -1,4 +1,5 @@
 GET http://localhost:3000/user
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQyZDIwNTU1LTg0ZjAtNGYxNC1iMTJmLTBhYzcxNjFlODA4NyIsImVtYWlsIjoiam9obnNtaXRoQGV4YW1wbGUuY29tIiwiaWF0IjoxNjk2ODEzODYzfQ.V2A43vxLYwQt_k6E_0sFnffpjjTg8robANesDXYIuzA
 
 
 ###

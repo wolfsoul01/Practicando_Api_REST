@@ -1,7 +1,23 @@
 import jwt from "jsonwebtoken";
 
-export function createJWT({ id }) {
-  return jwt.sign(id, "lol", {
-    expiresIn: 600,
+const secret = 'lol'
+
+export function createJWT({ id ,email}) {
+  const payload={
+    id,
+    email
+  }
+  console.log(id);
+
+  return new Promise ((res,rej)=>{
+    jwt.sign(payload,secret,(err,token)=>{
+
+      if(err) rej(err) 
+  
+      res (token)
+
+  })
+   
   });
 }
+

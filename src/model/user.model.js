@@ -9,7 +9,7 @@ export class UserModel {
   }
 
   static async getById(id) {
-    return users.find((item) => item.Id_user === id);
+    return users.find((item) => item.id_user === id);
   }
 
   static async createUser(userData) {
@@ -21,9 +21,9 @@ export class UserModel {
     users.push(newUser);
     return newUser;
   }
-
+  
   static async getIndexById(id) {
-    return users.findIndex((user) => user.Id_user === id);
+    return users.findIndex((user) => user.id_user === id);
   }
 
   static async udateUser({ userData, id }) {
@@ -39,7 +39,7 @@ export class UserModel {
 
   static async validDataLogin({password,email}){
 
-    
+   return users.find(user=> user.email===email && user.password ===password)
 
   }
 }
