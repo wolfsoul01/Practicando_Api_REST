@@ -1,6 +1,5 @@
 import { validarUser, partialValidUser } from "../schema/userZod.js";
 import { UserModel } from "../model/user.model.js";
-import jwt from "jsonwebtoken";
 export class UserController {
 
   static async getAll(req, res) {
@@ -9,7 +8,7 @@ export class UserController {
    
     const users = await UserModel.getAllUser();
 
-    res.json(users.filter(user=> user.isActive));
+    res.json(users);
   }
 
   static async getById(req, res) {

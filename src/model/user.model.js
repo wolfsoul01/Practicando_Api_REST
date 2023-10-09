@@ -5,7 +5,7 @@ const users = readJSON("../db/local/db.json") || [];
 
 export class UserModel {
   static async getAllUser() {
-    return users;
+    return users.filter(user=> user.isActive);
   }
 
   static async getById(id) {
@@ -14,9 +14,9 @@ export class UserModel {
 
   static async createUser(userData) {
     const newUser = {
+      ...userData,
       id_user: randomUUID(),
       create: Date.now(),
-      ...userData,
     };
     users.push(newUser);
     return newUser;

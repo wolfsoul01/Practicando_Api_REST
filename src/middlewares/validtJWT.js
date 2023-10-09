@@ -9,6 +9,7 @@ export function validarJWT(req, res, next) {
     const  {id}  = jwt.verify(token, "lol");
 
     req.id=id
+    
     next();
   } catch (err) {
     console.log(err);
